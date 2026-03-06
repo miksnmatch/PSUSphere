@@ -1,5 +1,5 @@
-**Username:** admin
-**Password:** 202380100
+**Username:** pia
+**Password:** 12345678
 
 # PSUSphere – Student Organization Management System
 
