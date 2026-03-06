@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-yu1@+$3ljgl^ux8)q0c#f4&z)oqm-4#j)o5npmly%ltv=a(_c#
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['psusphere.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['psusphere.pythonanywhere.com', 'mikopaalan.pythonanywhere.com', 'www.mikopaalan.pythonanywhere.com', '127.0.0.1']
 
 
 INSTALLED_APPS = [
