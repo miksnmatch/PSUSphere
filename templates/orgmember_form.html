@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="content">
+    <div class="container-fluid">
+        <h4 class="page-title">Org Members</h4>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">{% if object %}Update Org Member{% else %}Add Org Member{% endif %}</div>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    {% include 'includes/form.html' %}
+                    <button type="submit" class="btn btn-primary btn-rounded">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
